@@ -1,3 +1,4 @@
 *.class
-.idea
-out
+.idea/
+out/
+tests_out/

@@ -1,0 +1,3 @@
+10d
+JetPlane Bodriy 10 20 100
+Helicopter Vialyi 2 22 30
