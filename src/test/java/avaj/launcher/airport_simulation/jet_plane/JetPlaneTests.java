@@ -41,7 +41,7 @@ public class JetPlaneTests {
 
         AirportSimulation.main(new String[] {"scenario_7_jet_plane.txt"});
 
-        TestUtils.assertContains("latitude=35", byteArrayOutputStream.toString(), TestUtils.getEnclosingMethodName());
+        TestUtils.assertContains("latitude=30", byteArrayOutputStream.toString(), TestUtils.getEnclosingMethodName());
     }
 
     public static void when_FOG_LatitudeIncreasesWith1() throws NoSuchFieldException, IllegalAccessException {

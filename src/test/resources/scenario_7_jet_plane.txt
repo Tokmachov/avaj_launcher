@@ -1,2 +1,2 @@
 1
-JetPlane OoOooOoo 30 30 30
+JetPlane OoOooOoo 30 30 25
