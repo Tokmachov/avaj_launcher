@@ -27,7 +27,7 @@ public class JetPlaneTests {
 
         AirportSimulation.main(new String[] {"scenario_7_jet_plane.txt"});
 
-        TestUtils.assertContainsAll(Arrays.asList("latitude=40", "height=32"), byteArrayOutputStream.toString(), TestUtils.getEnclosingMethodName());
+        TestUtils.assertContainsAll(Arrays.asList("latitude=30", "height=27"), byteArrayOutputStream.toString(), TestUtils.getEnclosingMethodName());
     }
 
     public static void when_RAIN_LatitudeIncreasesWith5() throws NoSuchFieldException, IllegalAccessException {
@@ -41,7 +41,7 @@ public class JetPlaneTests {
 
         AirportSimulation.main(new String[] {"scenario_7_jet_plane.txt"});
 
-        TestUtils.assertContains("latitude=30", byteArrayOutputStream.toString(), TestUtils.getEnclosingMethodName());
+        TestUtils.assertContains("latitude=25", byteArrayOutputStream.toString(), TestUtils.getEnclosingMethodName());
     }
 
     public static void when_FOG_LatitudeIncreasesWith1() throws NoSuchFieldException, IllegalAccessException {
@@ -55,7 +55,7 @@ public class JetPlaneTests {
 
         AirportSimulation.main(new String[] {"scenario_7_jet_plane.txt"});
 
-        TestUtils.assertContains("latitude=31", byteArrayOutputStream.toString(), TestUtils.getEnclosingMethodName());
+        TestUtils.assertContains("latitude=21", byteArrayOutputStream.toString(), TestUtils.getEnclosingMethodName());
     }
 
     public static void when_SNOW_HeightDecreasesWith7() throws NoSuchFieldException, IllegalAccessException {
@@ -70,6 +70,6 @@ public class JetPlaneTests {
 
         AirportSimulation.main(new String[] {"scenario_7_jet_plane.txt"});
 
-        TestUtils.assertContains("height=23", byteArrayOutputStream.toString(), TestUtils.getEnclosingMethodName());
+        TestUtils.assertContains("height=18", byteArrayOutputStream.toString(), TestUtils.getEnclosingMethodName());
     }
 }
