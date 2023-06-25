@@ -5,8 +5,8 @@ This is minimal aircraft simulation program based on a given UML class diagram.
 
 To run tests, execute run_tests script
 
-To run program 
-cd to src/main/java
-find . -name *.java > sources.txt
-javac @sources.txt
+To run program <br>
+cd to src/main/java <br>
+find . -name *.java > sources.txt <br>
+javac @sources.txt <br>
 java avaj/launcher/airport_simulation/AirportSimulation ../resources/scenario_1.txt
